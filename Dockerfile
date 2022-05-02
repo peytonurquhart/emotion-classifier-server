@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 ENV DEBIAN_FRONTEND=noninteractive
-MAINTAINER Ilya Pukhov "ilya.pukhov@gmail.com"
+MAINTAINER Peyton Urquhart "peyton.urquhart@wsu.edu"
 RUN apt-get update -y
 RUN apt-get install -y python3-pip \
     python3-dev \
